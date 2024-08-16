@@ -1,0 +1,25 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.weather-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.weather-card h2 {
+  margin: 0;
+  font-size: 1.5em;
+}

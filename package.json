@@ -1,0 +1,13 @@
+{
+    "name": "weather-monitoring-system",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"npm start --prefix client\" \"npm start --prefix server\"",
+        "client": "npm start --prefix client",
+        "server": "npm start --prefix server"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "weather-monitoring-system": "file:"
+    }
+}
